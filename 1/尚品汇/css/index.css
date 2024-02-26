@@ -259,7 +259,20 @@
 
 /* #endregion主要内容end */
 
+/* #region秒杀专场begin */
+.seckill {
+    margin-top: 10px;
+}
+.seckill img {
+    float: left;
+    margin-right: 11px;
+    cursor: pointer;
+}
+.seckill img:last-child {
+    margin-right: 0;
+}
 
+/* #endregion秒杀专场end */
 
 
 
