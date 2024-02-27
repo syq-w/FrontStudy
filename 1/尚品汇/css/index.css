@@ -311,6 +311,27 @@
     background-color: #f4f4f4;
     padding: 20px;
 }
+.item1-list {
+    margin-bottom: 29px;
+}
+.item1-list li {
+    width: 90px;
+    height: 22px;
+    padding-bottom: 3.5px;
+    border-bottom: 1px solid #d9d9d9;
+    font-size: 16px;
+    text-align: center;
+}
+.item1-list li:nth-child(2n-1) {
+    float: left;
+}
+.item1-list li:nth-child(2n) {
+    float: right;
+}
+.item1-list li:nth-child(3),.item1-list li:nth-child(4) {
+    margin: 14.4px 0;
+}
+
 .info-item2 {
     width: 340px;
     height: 432px;
@@ -319,6 +340,9 @@
     width: 206px;
     height: 432px;
     border-right: 1px solid #e2e2e2;
+}
+.info-item3 img, .info-item4 img, .info-item5 img{
+    border-bottom: 1px solid #e2e2e2;
 }
 .info-item4 {
     width: 206px;
@@ -331,11 +355,16 @@
 }
 /* #endregion楼层 */
 
+/* #region页脚begin */
+
+
+/* #endregion页脚end */
 
 
 
-
-
+.cl {
+    height: 1100px;
+}
 
 
 
