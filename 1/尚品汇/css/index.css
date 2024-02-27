@@ -356,15 +356,62 @@
 /* #endregion楼层 */
 
 /* #region页脚begin */
+.footer {
+    height: 440px;
+    background-color: #483e3e;
+}
+.top-links {
 
-
+}
+.links-list {
+    float: left;
+    width: 190px;
+    height: 176px;
+    margin-top: 48px;
+    margin-right: 10px;
+}
+.links-list a {
+    color: white;
+    font-size: 14px;
+}
+.links-list:last-child {
+    margin-right: 0;
+}
+.line {
+    height: 1px;
+    background-color: #584d4d;
+    margin-top: 22px;
+}
+.bottom-links {
+    text-align: center;
+    margin-top: 47px;
+}
+.bottom-links-list {
+    display: inline-block;
+}
+.bottom-links-list li{
+    float: left;
+}
+.bottom-links-list li a {
+    padding: 0 26px;
+    border-right: 1px solid white;
+    color: white;
+}
+.bottom-links-list li:first-child a {
+    padding-left: 0;
+}
+.bottom-links-list li:last-child a {
+    padding-right: 0;
+    border: 0;
+}
+.copyright {
+    margin-top: 10px;
+    color: white;
+}
 /* #endregion页脚end */
 
 
 
-.cl {
-    height: 1100px;
-}
 
 
 
